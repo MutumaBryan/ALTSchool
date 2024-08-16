@@ -1,0 +1,104 @@
+/* Element Selector */
+/* p {
+  color: red;
+  font-size: 20px;
+}
+
+/* Id Selector */
+/* #mySelectedList {
+  font-size: 16px;
+  color: gray;
+} */
+
+/* class selector */
+/* .titles {
+  color: blue;
+  font-weight: lighter;
+  text-decoration: underline;
+} */
+
+html, body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 20px;
+  padding: 0;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 18px;
+  padding: 0;
+}
+header {
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+
+nav a {
+  margin: 0 5px;
+}
+
+.nav, main, .footer {
+  max-width: 1275px;
+  margin: 0 auto;
+}
+
+main, .footer {
+  padding: 0 20px;
+  max-width: 1200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+
+.flex {
+  display:flex;
+  gap: 15px;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.grid-cell, .flex-item {
+  height: 200px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* .flex-item:first-child {
+  order: 3;
+} */
+
+/* Stying on mobile devices */
+@media (max-width:768px) {
+  .flex{
+    flex-direction: column;
+  }
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    width:300%
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  .flex {
+    flex-direction: column;
+  }
+}

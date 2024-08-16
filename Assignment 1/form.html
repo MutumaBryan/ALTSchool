@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment 1</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="form.html">Application Form</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <fieldset>
+      <legend>
+        <strong>Signup</strong>
+      </legend>
+      <span>Take the next steps to apply at AltSchool Africa</span>
+      <hr/>
+
+      <form method="post" action="">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <label for="first-name">First Name</label><br />
+                <input id="first-name" type="text" placeholder="Enter first name" required />
+                <br /><br />
+              </td>
+              <td>
+                <label for="last-name">Last Name</label><br />
+                <input id="last-name" type="text" placeholder="Enter last name" required />
+                <br /><br />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="gender">Gender</label><br />
+                <input list="gender" name="gender" placeholder="Select Gender" />
+                <datalist id="gender">
+                  <option value="">Select Gender</option>
+                  <option value="Female"></option>
+                  <option value="Other"></option>
+                  <option value="Male"></option>
+                </datalist>
+                <br /><br />
+              </td>
+              <td>
+                <label for="dob">Date of Birth</label><br />
+                <input type="date" id="dob" />
+                <br /><br />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email-address">Email Address</label><br />
+                <input type="email" id="email-address" placeholder="Enter email address" required />
+                <br /><br />
+              </td>
+              <td>
+                <label for="phone-number">Phone Number</label><br />
+                <input type="tel" id="phone-number" placeholder="0712345678" required />
+                <br /><br />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="country">Country</label><br />
+                <input list="country" name="country" placeholder="Select your Country" />
+                <datalist id="country" name="country">
+                  <option value=""></option>
+                </datalist>
+                <br /><br />
+              </td>
+              <td>
+                <label for="city">State/City of Residence</label><br />
+                <input type="text" id="city" placeholder="Enter your state of residence" />
+                <br /><br />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="reference">How did you hear about us?</label><br />
+                <input list="reference" name="reference" placeholder="Select Channel" />
+                <datalist id="reference" name="reference">
+                  <option value="Twitter"></option>
+                  <option value="Facebook"></option>
+                  <option value="LinkedIn"></option>
+                  <option value="Youtube"></option>
+                  <option value="Friend"></option>
+                  <option value="Whatsapp"></option>
+                  <option value="Instagram"></option>
+                  <option value="Billboard"></option>
+                  <option value="Sales Officer"></option>
+                  <option value="Other"></option>
+                </datalist>
+                <br /><br />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="password">Password</label><br />
+                <input id="password" type="password" required placeholder="Enter password" />
+                <br /><br />
+              </td>
+              <td>
+                <label for="confirm-password">Confirm Password</label><br />
+                <input id="confirm-password" type="password" required placeholder="Enter password again" />
+                <br /><br />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <hr />
+
+        <p>
+          By clicking continue, I agree to
+          <a href="https://altschoolafrica.com/terms-and-conditions">Terms of Use</a>
+          and acknowledge that I have read the
+          <a href="https://altschoolafrica.com/privacy-policy">Privacy Policy</a>.
+        </p>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </fieldset>
+  </main>
+</body>
+
+</html>
