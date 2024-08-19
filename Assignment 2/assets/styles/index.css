@@ -1,0 +1,81 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+#scroll-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 22px;
+  height: 20px;
+  margin: 10px;
+}
+
+#scroll-down:hover {
+  background-color: rgb(177, 177, 250);
+  border: none;
+  width: 33px;
+  height: 30px;
+}
+
+h1 {
+  color: rgb(73, 121, 122);
+  margin: 18px 50px;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+  }
+
+  figure {
+    background-color: rgb(21, 38, 39);
+    padding: 30px;
+    border-radius: 10px;
+    width: 600px !important;
+  }
+
+  h2,
+  h3 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  section {
+    width: 500px;
+    margin: 0 100px 10px 400px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    text-align: center;
+    align-self: center;
+  }
+
+  #video-title {
+    color: rgb(73, 121, 122);
+    width: 400px;
+    text-align: left;
+  }
+
+  video {
+    padding: 10px;
+  }
+}

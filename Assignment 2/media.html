@@ -1,75 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="/Assignment 2/assets/styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:regular,700"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Assignment 2</title>
-</head>
+  <body>
+    <header>
+      <h1>Using media elements(video, audio and images) to define who I am</h1>
+      <a id="scroll-down" href="#video-audio"
+        ><img
+          src="/Assignment 2/assets/images/image3.png"
+          alt=""
+          width="20px"
+          height="20px"
+      /></a>
+    </header>
 
-<body>
-  <header>
-    <h1>Using media elements(video, audio and images) to define who I am</h1>
-  </header>
+    <main>
+      <figure>
+        <figcaption>
+          <h2>What does Timothy Mutuma believe in?</h2>
+        </figcaption>
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="https://btchr.vercel.app/ayhPIV"
+            width="600px"
+            height="260px"
+            alt="A quote on success by Winston Churchill"
+          />
+          <source
+            media="(min-width: 480px)"
+            srcset="https://btchr.vercel.app/ayhPIV"
+            width="500px"
+            height="260px"
+            alt="A quote on success by Winston Churchill"
+          />
+          <img
+            src="https://btchr.vercel.app/OTssNJ"
+            width="300px"
+            alt="A quote on working hard as a team"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="https://btchr.vercel.app/nXbfSP"
+            width="600px"
+            height="260px"
+            alt="A quote by Robert Ingersol"
+          />
+          <source
+            media="(min-width: 480px)"
+            srcset="https://btchr.vercel.app/nXbfSP"
+            width="500px"
+            height="260px"
+            alt="A quote by Robert Ingersol"
+          />
+          <img
+            src="https://wallpapercave.com/wp/wp9686547.png"
+            alt=""
+            width="300px"
+          />
+        </picture>
+      </figure>
 
-  <main>
-    <a href="#video-audio">Scroll to the video & audio</a>
-    <figure>
-      <figcaption>
-        <h2>What does Timothy Mutuma believe in?</h2>
-      </figcaption>
-      <picture>
-        <source media="(min-width: 768px)" srcset="https://btchr.vercel.app/ayhPIV" width="600px" height="260px"
-          alt="A quote on success by Winston Churchill" />
-        <source media="(min-width: 480px)" srcset="https://btchr.vercel.app/ayhPIV" width="500px" height="260px"
-          alt="A quote on success by Winston Churchill" />
-        <img src="https://btchr.vercel.app/OTssNJ" width="300px" alt="A quote on working hard as a team" />
-      </picture>
-      <picture>
-        <source media="(min-width: 768px)" srcset="https://btchr.vercel.app/nXbfSP" width="600px" height="260px"
-          alt="A quote by Robert Ingersol" />
-        <source media="(min-width: 480px)" srcset="https://btchr.vercel.app/nXbfSP" width="500px" height="260px"
-          alt="A quote by Robert Ingersol" />
-        <img src="https://wallpapercave.com/wp/wp9686547.png" alt="" width="300px" />
-      </picture>
-    </figure>
+      <figure>
+        <figcaption>
+          <h3>
+            I believe hard work and good team chemistry is essential to get far.
+          </h3>
+        </figcaption>
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="https://btchr.vercel.app/ZEgFUh"
+            width="600px"
+            height="260px"
+            alt="the word team work in large font"
+          />
+          <source
+            media="(min-width: 480px)"
+            srcset="https://btchr.vercel.app/ZEgFUh"
+            width="500px"
+            height="260px"
+            alt="the word team work in large font"
+          />
+          <img
+            src="https://btchr.vercel.app/QgFU8W"
+            width="300px"
+            alt="A quote by Jahangir Khan on the importance hard work"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              http://127.0.0.1:5500/Assignment%202/assets/images/image.png
+            "
+            width="600px"
+            height="260px"
+            alt="Thomas Jefferson quote on luck and hard work"
+          />
+          <source
+            media="(min-width: 480px)"
+            srcset="
+              http://127.0.0.1:5500/Assignment%202/assets/images/image.png
+            "
+            width="500px"
+            height="260px"
+            alt="Thomas Jefferson quote on luck and hard work"
+          />
+          <img
+            src="/Assignment 2/assets/images/image2.png"
+            alt="quote on the power of prayer"
+            width="300px"
+            height="300px"
+          />
+        </picture>
+      </figure>
+    </main>
 
-    <figure>
-      <figcaption>
-        <h3>I believe hard work and good team chemistry is essential to get far.</h3>
-      </figcaption>
-      <picture>
-        <source media="(min-width: 768px)" srcset="https://btchr.vercel.app/ZEgFUh" width="600px" height="260px"
-          alt="the word team work in large font" />
-        <source media="(min-width: 480px)" srcset="https://btchr.vercel.app/ZEgFUh" width="500px" height="260px"
-          alt="the word team work in large font" />
-        <img src="https://btchr.vercel.app/QgFU8W" width="300px"
-          alt="A quote by Jahangir Khan on the importance hard work" />
-      </picture>
-      <picture>
-        <source media="(min-width: 768px)" srcset="http://127.0.0.1:5500/Assignment%202/assets/images/image.png"
-          width="600px" height="260px" alt="Thomas Jefferson quote on luck and hard work" />
-        <source media="(min-width: 480px)" srcset="http://127.0.0.1:5500/Assignment%202/assets/images/image.png"
-          width="500px" height="260px" alt="Thomas Jefferson quote on luck and hard work" />
-        <img src="/Assignment 2/assets/images/image2.png" alt="quote on the power of prayer" width="300px"
-          height="300px">
-      </picture>
-    </figure>
-    <hr>
-
-    <section id="video-audio">
-      <h2>A video and audio file that speaks on my work ethics and character</h2>
-      <video width="400" height="240" controls preload="auto">
-        <source src="/Assignment 2/assets/videos/videoplayback.mp4" type="video/mp4">
-        Your browser does not support the video format.
-      </video>
-      <audio width="400" controls preload="auto">
-        <source src="/Assignment 2/assets/audios/How to turn a group of strangers into a team _ Amy Edmondson.mp3"
-          type="audio/mp3">
-        Your browser does not support the audio format.
-      </audio>
-    </section>
-  </main>
-</body>
-
+    <footer>
+      <section id="video-audio">
+        <h2 id="video-title">
+          Video and Audio
+        </h2>
+        <video width="400" height="240" controls preload="auto">
+          <source
+            src="/Assignment 2/assets/videos/videoplayback.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video format.
+        </video>
+        <audio width="400" controls preload="auto">
+          <source
+            src="/Assignment 2/assets/audios/How to turn a group of strangers into a team _ Amy Edmondson.mp3"
+            type="audio/mp3"
+          />
+          Your browser does not support the audio format.
+        </audio>
+      </section>
+    </footer>
+  </body>
 </html>
