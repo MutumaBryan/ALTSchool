@@ -86,3 +86,32 @@ label {
 fieldset {
   margin: 20px;
 }
+
+#openPopup{
+  font-weight: bold;
+  font-size: 19px;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  color: green;
+  padding: 8px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+#openPopup:hover {
+  color: black;
+  border: 0.5px solid black;
+}
+
+#popup {
+  border: 0.5px solid green;
+  background-color: #ffffff;
+  border-radius: 7px;
+}
+
+#popup p {
+  padding: 10px;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.733);
+}
