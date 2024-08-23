@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment 2</title>
-    <link rel="stylesheet" href="/Assignment 2/assets/styles/index.css" />
+    <link rel="stylesheet" href="/assets/styles/app.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:regular,700"
       rel="stylesheet"
@@ -12,18 +12,38 @@
   </head>
 
   <body>
-    <header>
-      <h1>Using media elements(video, audio and images) to define who I am</h1>
-      <a id="scroll-down" href="#video-audio"
-        ><img
-          src="/Assignment 2/assets/images/image3.png"
-          alt=""
-          width="20px"
-          height="20px"
-      /></a>
-    </header>
+    <aside>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="form.html">Application Form</a>
+          </li>
+          <li>
+            <a href="media.html">Media Assignment</a>
+          </li>
+          <li>
+            <a href="table.html">Table Assignment</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
 
     <main>
+      <header>
+        <a id="scroll-down" href="#video-audio"
+          ><img
+            src="/assets/images/image3.png"
+            alt=""
+            width="20px"
+            height="20px"
+        /></a>
+        <h1>
+          Using media elements(video, audio and images) to define who I am
+        </h1>
+      </header>
       <figure>
         <figcaption>
           <h2>What does Timothy Mutuma believe in?</h2>
@@ -102,24 +122,20 @@
         <picture>
           <source
             media="(min-width: 768px)"
-            srcset="
-              http://127.0.0.1:5500/Assignment%202/assets/images/image.png
-            "
+            srcset="http://127.0.0.1:5500/assets/images/image.png"
             width="600px"
             height="260px"
             alt="Thomas Jefferson quote on luck and hard work"
           />
           <source
             media="(min-width: 480px)"
-            srcset="
-              http://127.0.0.1:5500/Assignment%202/assets/images/image.png
-            "
+            srcset="http://127.0.0.1:5500/assets/images/image.png"
             width="500px"
             height="260px"
             alt="Thomas Jefferson quote on luck and hard work"
           />
           <img
-            src="/Assignment 2/assets/images/image2.png"
+            src="/assets/images/image2.png"
             alt="quote on the power of prayer"
             width="300px"
             height="300px"
@@ -130,19 +146,14 @@
 
     <footer>
       <section id="video-audio">
-        <h2 id="video-title">
-          Video and Audio
-        </h2>
+        <h2 id="video-title">Video and Audio</h2>
         <video width="400" height="240" controls preload="auto">
-          <source
-            src="/Assignment 2/assets/videos/videoplayback.mp4"
-            type="video/mp4"
-          />
+          <source src="/assets/videos/videoplayback.mp4" type="video/mp4" />
           Your browser does not support the video format.
         </video>
         <audio width="400" controls preload="auto">
           <source
-            src="/Assignment 2/assets/audios/How to turn a group of strangers into a team _ Amy Edmondson.mp3"
+            src="/assets/audios/How to turn a group of strangers into a team _ Amy Edmondson.mp3"
             type="audio/mp3"
           />
           Your browser does not support the audio format.

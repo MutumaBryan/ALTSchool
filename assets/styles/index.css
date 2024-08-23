@@ -4,21 +4,32 @@ html {
   padding: 0;
 }
 
-body {
+main {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-nav ul{
-  margin: 15px;
-  padding: 5px;
-  width: 150px;
+nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
 }
 
 ul>li {
   padding: 5px;
-  margin: 0;
+  margin: 0 20px;
   list-style-type: none;
   font-weight: bold;
+  flex: 1;
+  text-align: center;
 }
 
 a {
@@ -70,4 +81,8 @@ input:focus {
 label {
   font-weight: bold;
   color: rgb(23, 71, 55);
+}
+
+fieldset {
+  margin: 20px;
 }
