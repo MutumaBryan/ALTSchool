@@ -1,114 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:regular,700"
+      rel="stylesheet"
+    />
+    <title>Assignment 1</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets/styles/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,700" rel="stylesheet" />
-  <title>Assignment 1</title>
-  <style>
-    body {
-      display: grid;
-      grid-template-columns: 4;
-      grid-template-rows: repeat(auto-fit, 1fr);
-    }
+  <body>
+    <div class="grid-container">
+      <header id="top" class="menu-header">
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-list-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="form.html">Application</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="media.html">Media</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="table.html">Table</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-    main {
-      display: grid;
-      grid-template-columns: 1;
-      grid-template-rows: repeat(auto-fit, 1fr);
-      grid-row: 2;
-      grid-column: 2 / 3;
-      align-items: center;
-      justify-content: space-evenly;
-    }
+      <main class="main-content">
+        <h1 class="main-content-title">STUDENT INFORMATION</h1>
+        <article class="card">
+          <h2 class="card-title">STUDENT NAME</h2>
+          <p class="card-content">Timothy Mutuma</p>
+        </article>
 
-    header {
-      display: grid;
-      grid-template-columns: 1;
-      grid-template-rows: 1;
-      grid-row: 1;
-      grid-column: 1 / 4;
-    }
-  </style>
-</head>
+        <article class="card">
+          <h2 class="card-title">ALT SCHOOL ID</h2>
+          <p class="card-content">ALT/SOE/024/1370</p>
+        </article>
 
-<body>
-  <header id="top">
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="form.html">Application Form</a>
-        </li>
-        <li>
-          <a href="media.html">Media Assignment</a>
-        </li>
-        <li>
-          <a href="table.html">Table Assignment</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        <article class="card">
+          <h2 class="card-title">EMAIL ADDRESS</h2>
+          <p class="card-content">timothyb.mutuma@gmail.com</p>
+        </article>
 
-  <main>
-    <h1>STUDENT INFORMATION</h1>
-    <article>
-      <h2>STUDENT NAME</h2>
-      <p>Timothy Mutuma</p>
-    </article>
+        <article class="card">
+          <h2 class="card-title">BIOGRAPHY</h2>
+          <p class="card-content">
+            I am a Timothy Mutuma born and raised in Kenya, 26 years old and
+            currently living in Nairobi.<br />
+            I am a web design enthusiast who has studied computer science and
+            now focusing on front-end engineering.<br />
+            For my free time I enjoy podcasts, movies, and cycling.
+          </p>
+        </article>
 
-    <article>
-      <h2>ALT SCHOOL ID</h2>
-      <p>ALT/SOE/024/1370</p>
-    </article>
+        <article class="card">
+          <h2 class="card-title">WHY I JOINED ALTSCHOOL</h2>
+          <p class="card-content">
+            I learnt of the school from a friend while searching for a design
+            focused course.<br />
+            ALT School web page description of their front-end engineering
+            course further helped me make my choice, the items in offer were
+            aligned with what I had studied and wished to polish.<br />
+            ALT School alumni also spoke highly of how the pacing of the
+            training and content of the course makes it the best front-end
+            course available.
+          </p>
+        </article>
 
-    <article>
-      <h2>EMAIL ADDRESS</h2>
-      <p>timothyb.mutuma@gmail.com</p>
-    </article>
-
-    <article>
-      <h2>BIOGRAPHY</h2>
-      <p>
-        I am a Timothy Mutuma born and raised in Kenya, 26 years old and
-        currently living in Nairobi.<br />
-        I am a web design enthusiast who has studied computer science and now
-        focusing on front-end engineering.<br />
-        For my free time I enjoy podcasts, movies, and cycling.
-      </p>
-    </article>
-
-    <article>
-      <h2>WHY I JOINED ALTSCHOOL</h2>
-      <p>
-        I learnt of the school from a friend while searching for a design
-        focused course.<br />
-        ALT School web page description of their front-end engineering course
-        further helped me make my choice, the items in offer were aligned with
-        what I had studied and wished to polish.<br />
-        ALT School alumni also spoke highly of how the pacing of the training
-        and content of the course makes it the best front-end course
-        available.
-      </p>
-    </article>
-
-    <article>
-      <h2>GOALS</h2>
-      <p>
-        I aim to develop a strong foundation in HTML, CSS, and JavaScript
-        while also focusing on practical application and emerging
-        technologies. <br />
-        To develop responsive design skills and find my place in the industry
-        by specializing in either UI/UX, performance optimization, or
-        accessibility.
-      </p>
-      <a href="#top">Back to the top</a>
-    </article>
-  </main>
-</body>
-
+        <article class="card">
+          <h2 class="card-title">GOALS</h2>
+          <p class="card-content">
+            I aim to develop a strong foundation in HTML, CSS, and JavaScript
+            while also focusing on practical application and emerging
+            technologies. <br />
+            To develop responsive design skills and find my place in the
+            industry by specializing in either UI/UX, performance optimization,
+            or accessibility.
+          </p>
+        </article>
+        <a id="nav-top" href="#top">Back to the top</a>
+      </main>
+    </div>
+  </body>
 </html>
