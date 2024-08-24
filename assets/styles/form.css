@@ -26,7 +26,7 @@ aside {
 header {
   grid-column: 1 / span 4;
   align-self: center;
-  padding: 1em;
+  padding: 0.7em;
 }
 
 main {
