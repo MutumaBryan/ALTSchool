@@ -1,3 +1,12 @@
+:root {
+  --primary-color: green;
+  --secondary-color: rgba(0, 128, 0, 0.411);
+  --text-color: black;
+  --background-color: rgba(0, 128, 0, 0.226);
+  --nav-background-color: #f2f2f2;
+  --main-font-family: "Montserrat", sans-serif;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -8,12 +17,13 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  nav {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 40px;
-    background-color: #f2f2f2;
-    padding: 10px;
+  aside {
+    align-content: center;
+    border-bottom: 0.09em solid var(--primary-color);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 1em;
   }
 
   h1 {
@@ -25,25 +35,26 @@ body {
   }
 
   ul {
-    display: flex;
-    justify-content: center;
-    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    justify-content: space-between;
+    padding: 0.6em;
+    margin: 0.1em;
   }
 
   ul>li {
-    padding: 5px;
-    margin: 0 20px;
-    list-style-type: none;
-    font-weight: bold;
-    flex: 1;
+    grid-auto-columns: auto;
+    list-style: none;
     text-align: center;
+    align-content: center;
+    width: 100%;
+    padding: 0.3em;
   }
 
   li a {
     text-decoration: none;
-    font-size: 16px;
-    color: green;
-    font-weight: bold;
+    font-size: 100%;
+    color: var(--primary-color);
   }
 
   header {
@@ -74,8 +85,6 @@ body {
   }
 
   section {
-    width: 600px;
-    margin: 0 233px 10px 333px;
     border: 1px solid green;
     padding: 30px;
     text-align: center;
@@ -84,8 +93,7 @@ body {
 
   #video-title {
     color: rgb(0, 0, 0);
-    width: 400px;
-    text-align: left;
+    text-align: center;
   }
 
   video {
@@ -123,6 +131,15 @@ body {
     width: 400px;
   }
 
+  aside {
+    align-content: center;
+    border-bottom: 0.09em solid var(--primary-color);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 0.8em;
+  }
+
   h1 {
     font-size: 20px;
     text-align: left;
@@ -133,31 +150,27 @@ body {
     font-size: 16px;
   }
 
-  nav {
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-
   ul {
-    display: flex;
-    flex-direction: row;
-    justify-items: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    justify-content: space-between;
+    padding: 0.6em;
+    margin: 0.1em;
   }
 
   ul>li {
-    padding: 5px;
-    list-style-type: none;
-    font-weight: bold;
-    flex: 1;
+    grid-auto-columns: auto;
+    list-style: none;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    padding: 0.3em;
   }
 
   li a {
     text-decoration: none;
-    font-size: 12px;
-    color: green;
+    font-size: 100%;
+    color: var(--primary-color);
   }
 
   #scroll-down {

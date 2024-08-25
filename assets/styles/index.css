@@ -20,7 +20,7 @@ header {
 header {
   grid-column: 1 / span 4;
   align-self: center;
-  padding: 1em;
+  padding: 0.7em;
 }
 
 main {
@@ -78,6 +78,7 @@ body {
   text-align: center;
   align-content: center;
   width: 100%;
+  padding: 0.3em;
 }
 
 .menu-list-item a {

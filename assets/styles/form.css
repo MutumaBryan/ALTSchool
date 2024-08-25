@@ -10,7 +10,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, minmax(2em, ifr));
+  grid-template-rows: repeat(auto-fit, minmax(2em, 1fr));
   width: 100%;
   gap: 1em;
 }
@@ -43,7 +43,7 @@ main {
     grid-template-columns: repeat(auto-fit, 25%);
     grid-template-rows: repeat(auto-fit, minmax(80px, 1fr));
     width: 100%;
-    gap: 1em;
+    gap: 0.5  em;
   }
 
   main,
@@ -78,7 +78,7 @@ main {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--main-font-family);
 }
 
 #openPopup {
