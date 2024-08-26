@@ -1,4 +1,5 @@
 Project: First Semester Assignment
+
 Description:
 This is a project done in the 2024 first semester of Front-End Engineering course at ALT School Africa. 
 It is an assigment that gives a description of the student and also the school.
