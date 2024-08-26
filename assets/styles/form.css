@@ -87,14 +87,13 @@ body {
   padding: 1em;
   margin: 0.3em;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   border-radius: 0.2em;
   border-left: 0.2em solid var(--primary-color);
   border-top: none;
   border-right: none;
   border-bottom: none;
-  background-color: var(--background-color);
   cursor: pointer;
 }
 

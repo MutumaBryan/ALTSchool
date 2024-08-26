@@ -108,15 +108,15 @@ body {
   border-right: none;
   border-bottom: none;
   background-color: var(--background-color);
-  width: 13%;
+  width: 20%;
 }
 
 .table-caption {
-  padding: 0.3em 0 0.3em 0.6em;
+  padding: 0.3em;
   border: 0.1em solid var(--primary-color);
-  width: 19%;
+  width: 22%;
   margin: 0 1em 1em 1em;
   border-radius: 0.2em;
-  text-align: left;
+  text-align: middle;
   margin-left: 2em;
 }
