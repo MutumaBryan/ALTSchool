@@ -1,4 +1,4 @@
-Project: First Semester Assignment
+Project: First Semester Assignment and Study Files
 
 Description:
 
